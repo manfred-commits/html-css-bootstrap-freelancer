@@ -1,11 +1,18 @@
-.header-color{
+/* header section */
+.header-sec{
     background-color:#2C3E50 ;
     color: white;
 }
 header ul li a{
     color: white;
 }
-.hero-sec{
+/* main section */
+.hero-sec,
+.about-sec{
     background-color:#1ABC9C ;
+    color: white;
 }
-.portfolio-sec{}
+.contact-border{
+    border-bottom: 2px solid lightgrey;
+}
+/* footer section */
