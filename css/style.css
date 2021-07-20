@@ -1,3 +1,12 @@
+/* general rules */
+.container{
+    padding: 20px 0;
+}
+.hero-sec,
+.about-sec,
+footer{
+    color: white;
+}
 /* header section */
 .header-sec{
     background-color:#2C3E50 ;
@@ -10,9 +19,14 @@ header ul li a{
 .hero-sec,
 .about-sec{
     background-color:#1ABC9C ;
-    color: white;
 }
 .contact-border{
     border-bottom: 2px solid lightgrey;
 }
 /* footer section */
+.first-footer{
+    background-color: #3A546D;
+}
+.second-footer{
+    background-color:#2C3E50 ;
+}
