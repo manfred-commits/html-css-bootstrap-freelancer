@@ -73,22 +73,10 @@ main{
     margin: 10px 0;
     border-radius: 12px;
 }
+/* contacts section of the page */
 .contact-border{
     border-bottom: 2px solid lightgrey;
 }
-button.secondary_color{
-    color: white;
-}
-/* footer section */
-.first-footer{
-    background-color: #3A546D;
-}
-.second-footer{
-    background-color:#2C3E50 ;
-}
-
-
-
 .border_reset{
     border: 0;
     border-radius: 0;
@@ -101,3 +89,19 @@ button.secondary_color{
     border-bottom: 1px solid black;
     height: 80px;
 }
+button.secondary_color{
+    color: white;
+}
+/* footer section */
+.first-footer{
+    background-color: #3A546D;
+}
+.secondary_color_font{
+    color: #1ABC9C;
+}
+.second-footer{
+    background-color:#2C3E50 ;
+}
+
+
+
