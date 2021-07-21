@@ -79,6 +79,7 @@ main{
 }
 .white_border{
     border: 1px solid white;
+    color: white;
 }
 /* contacts section of the page */
 .contact-border{
