@@ -1,4 +1,10 @@
 /* general rules */
+h2{
+    margin: 0;
+}
+ul{
+    margin: 0;
+}
 /* .container{
     padding: 20px 0;
 } */
@@ -10,12 +16,17 @@ footer{
 /* header section */
 .header-sec{
     background-color:#2C3E50 ;
+    width: 100%;
+    height: 50px;
     color: white;
 }
 header ul li a{
     color: white;
 }
 /* main section */
+main{
+    padding-top: 50px;
+}
 .hero-sec,
 .about-sec{
     background-color:#1ABC9C ;
