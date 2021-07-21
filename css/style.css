@@ -26,8 +26,52 @@ main{
     margin-top: 50px;
     width: 100%;
 }
+/* hero section */
 .secondary_color{
     background-color:#1ABC9C ;
+}
+.hero-sec img{
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: cover;
+    margin: 5px;
+} 
+.star_divider{
+    width: 40%;
+    margin: 20px auto;
+}
+.star_divider i{
+    font-size: 40px;
+    padding: 0 10px;
+}
+.left_bar,
+.right_bar{
+    flex-grow: 1;
+    height: 5px;
+    background-color: white;
+}
+.star_divider_secondary{
+    color: black;
+    width: 40%;
+    margin: 20px auto;
+}
+.smaller_formatting{
+    width: 20%;
+}
+.star_divider_secondary i{    
+    font-size: 40px;
+    padding: 0 10px;
+}
+.star_divider_secondary .left_bar,
+.star_divider_secondary .right_bar{
+    background-color: black;
+}
+.img_formatting{
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: cover;
+    margin: 10px 0;
+    border-radius: 12px;
 }
 .contact-border{
     border-bottom: 2px solid lightgrey;
