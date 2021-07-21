@@ -86,3 +86,18 @@ button.secondary_color{
 .second-footer{
     background-color:#2C3E50 ;
 }
+
+
+
+.border_reset{
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid black;
+    height: 10px;
+}
+.border_reset_message{
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid black;
+    height: 80px;
+}
