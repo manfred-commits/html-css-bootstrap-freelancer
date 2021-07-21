@@ -24,6 +24,7 @@ header ul li a{
 /* main section */
 main{
     margin-top: 50px;
+    width: 100%;
 }
 .secondary_color{
     background-color:#1ABC9C ;
