@@ -27,12 +27,14 @@ header ul li a{
 main{
     padding-top: 50px;
 }
-.hero-sec,
-.about-sec{
+.secondary_color{
     background-color:#1ABC9C ;
 }
 .contact-border{
     border-bottom: 2px solid lightgrey;
+}
+button.secondary_color{
+    color: white;
 }
 /* footer section */
 .first-footer{
