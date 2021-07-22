@@ -54,7 +54,7 @@ main{
     background-color: white;
 }
 .star_divider_secondary{
-    color: black;
+    color: #2C3E50;
     width: 40%;
     margin: 20px auto;
 }
@@ -67,7 +67,7 @@ main{
 }
 .star_divider_secondary .left_bar,
 .star_divider_secondary .right_bar{
-    background-color: black;
+    background-color: #2C3E50;
 }
 .img_formatting{
     max-width: 300px;
@@ -122,6 +122,11 @@ main{
     border-bottom: 1px solid black;
     height: 80px;
 }
+.form-control::placeholder {
+    color: #2C3E50;
+    font-size: 18px;
+    font-weight: 700;
+} 
 button.secondary_color{
     color: white;
 }
