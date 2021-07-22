@@ -92,7 +92,7 @@ main{
     bottom: 0;
     left: 0;
     right: 0;
-    background: lightblue;
+    background: #1ABC9C;
     opacity: 0.6;
     z-index: 1;
 }
