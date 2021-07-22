@@ -11,10 +11,14 @@ footer{
     color: white;
 }
 /* header section */
+header{
+    z-index: 3;
+}
 .header-sec{
     background-color:#2C3E50 ;
     width: 100%;
     top: 0;
+    left: 0;
     height: 50px;
     color: white;
 }
@@ -24,7 +28,6 @@ header ul li a{
 /* main section */
 main{
     margin-top: 50px;
-    width: 100%;
 }
 /* hero section */
 .secondary_color{
@@ -73,6 +76,27 @@ main{
     margin: 10px 0;
     border-radius: 12px;
 }
+/* portfolio section */
+.album_container:hover .img_formatting:after {
+    content: "/f067";
+    font-size: 30px;
+    color: white;
+    font-family: "Font Awesome 5 Free";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: lightblue;
+    opacity: 0.6;
+    z-index: 1;
+}
+
 /* about section */
 .button_row{
     padding: 30px 0 0px;
