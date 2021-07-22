@@ -113,14 +113,12 @@ main{
 .border_reset{
     border: 0;
     border-radius: 0;
-    border-bottom: 1px solid black;
-    height: 10px;
+    border-bottom: 1px solid lightgrey;
 }
 .border_reset_message{
     border: 0;
     border-radius: 0;
-    border-bottom: 1px solid black;
-    height: 80px;
+    border-bottom: 1px solid lightgrey;
 }
 .form-control::placeholder {
     color: #2C3E50;
